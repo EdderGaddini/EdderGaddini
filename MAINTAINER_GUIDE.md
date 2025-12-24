@@ -14,14 +14,19 @@
 1. **Acesse Issues** com label `awaiting-approval`
 2. **Revise a jogada** proposta
 3. **Para aprovar:**
+   - Abra a Issue
+   - No lado direito, clique em "Labels"
    - Adicione a label `approved`
-   - A jogada será executada automaticamente
-   - O tabuleiro será atualizado
-   - A Issue será fechada
+   - Pronto! O bot faz o resto automaticamente:
+     - Executa a jogada
+     - Atualiza o tabuleiro
+     - Remove a label `awaiting-approval`
+     - Comenta o resultado
+     - Fecha a Issue
 
 4. **Para rejeitar:**
-   - Apenas feche a Issue com um comentário
-   - Remova a label `awaiting-approval`
+   - Apenas feche a Issue com um comentário explicando o motivo
+   - Não precisa remover labels manualmente
 
 ## Labels do Sistema
 

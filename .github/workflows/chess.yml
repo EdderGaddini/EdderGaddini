@@ -138,9 +138,29 @@ jobs:
           MOVE_NUM="${{ steps.status.outputs.move_number }}"
           TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
           
-          # Atualiza o turno e número da jogada
-          sed -i "s|**Turno atual:**.*|**Turno atual:** $TURN \| **Jogada:** $MOVE_NUM \||g" README.md
-          sed -i "s|Última atualização:.*|Última atualização: $TIMESTAMP|g" README.md
+          # Atualiza o turno e número da jogada usando Python
+          python << EOF
+          import re
+          with open('README.md', 'r', encoding='utf-8') as f:
+              content = f.read()
+          
+          # Atualiza turno e jogada
+          content = re.sub(
+              r'<b>Turno atual:</b> .* \| <b>Jogada:</b> .*',
+              f'<b>Turno atual:</b> $TURN | <b>Jogada:</b> $MOVE_NUM',
+              content
+          )
+          
+          # Atualiza timestamp
+          content = re.sub(
+              r'Última atualização: .*',
+              f'Última atualização: $TIMESTAMP',
+              content
+          )
+          
+          with open('README.md', 'w', encoding='utf-8') as f:
+              f.write(content)
+          EOF
       
       - name: Commit changes
         run: |
