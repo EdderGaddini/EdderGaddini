@@ -43,9 +43,27 @@ Você pode criar Issues manualmente com:
 
 ## Dicas
 
-- Confira `chess.pgn` para ver o histórico completo
+- Confira `chess.pgn` para ver o histórico completo de jogadas
+  - Formato: PGN (Portable Game Notation)
+  - Inclui: data, evento, todas as jogadas e resultado
 - O arquivo `chess_board.svg` é atualizado automaticamente
 - Todas as jogadas são commitadas pelo bot
+- O jogo é colaborativo: "Community" joga contra "Community"
+
+## 🔄 Como Resetar o Jogo
+
+### Opção 1: Via Issue (Recomendado)
+1. Crie uma Issue com título: `chess|reset`
+2. Adicione a label `approved`
+3. Pronto! O bot reseta tudo automaticamente
+
+### Opção 2: Manual (Terminal)
+```bash
+python chess_game.py reset
+git add chess.pgn chess_board.svg README.md
+git commit -m "♟️ Reinicia jogo de xadrez"
+git push
+```
 
 ## Troubleshooting
 
