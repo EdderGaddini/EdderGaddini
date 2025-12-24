@@ -5,7 +5,7 @@
   Aqui é onde eu quebro coisas, conserto coisas e às vezes crio algo legal.
 </p>
 
----
+<!-- ---
 
 ### 🛠 Tech stack (um pouco do que eu uso)
 
@@ -32,7 +32,7 @@
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
 </p>
 
----
+--- -->
 
 ### ♟️ Vamos jogar xadrez!
 
