@@ -50,11 +50,12 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
+            const move = '${{ steps.validate.outputs.move }}';
             github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: '✅ **Jogada válida!**\n\n🎯 Jogada: `${{ steps.validate.outputs.move }}`\n\n⏳ Aguardando aprovação do @EdderGaddini para executar a jogada!\n\n---\n💡 *Assim que aprovada, o tabuleiro será atualizado automaticamente.*'
+              body: `✅ **Jogada válida!**\n\n🎯 Jogada: \`${move}\`\n\n⏳ Aguardando aprovação do @EdderGaddini para executar a jogada!\n\n---\n💡 *Assim que aprovada, o tabuleiro será atualizado automaticamente.*`
             })
             
             github.rest.issues.addLabels({
@@ -69,15 +70,20 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
+            const move = '${{ steps.validate.outputs.move }}';
             github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: '❌ **Jogada inválida!**\n\n🎯 Jogada tentada: `${{ steps.validate.outputs.move }}`\n\n⚠️ Esta jogada não é permitida no estado atual do jogo.\n\n---\n📖 Confira as [regras e formato correto](../blob/main/CHESS_INSTRUCTIONS.md)!'
+              body: `❌ **Jogada inválida!**\n\n🎯 Jogada tentada: \`${move}\`\n\n⚠️ Esta jogada não é permitida no estado atual do jogo.\n\n---\n📖 Confira as [regras e formato correto](../blob/main/CHESS_INSTRUCTIONS.md)!`
             })
             
             github.rest.issues.update({
               issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'closed'
+            })
               owner: context.repo.owner,
               repo: context.repo.repo,
               state: 'closed'
@@ -175,11 +181,12 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
+            const status = `${{ steps.status.outputs.status }}`;
             github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: '🎉 **Jogada executada com sucesso!**\n\n${{ steps.status.outputs.status }}\n\n---\n✨ [Confira o tabuleiro atualizado!](../blob/main/README.md)'
+              body: `🎉 **Jogada executada com sucesso!**\n\n${status}\n\n---\n✨ [Confira o tabuleiro atualizado!](../blob/main/README.md)`
             })
             
             github.rest.issues.update({
