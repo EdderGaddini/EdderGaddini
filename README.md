@@ -45,7 +45,7 @@
 </p>
 
 <p align="center">
-  <b>Turno atual:</b> Brancas | <b>Jogada:</b> 1
+  <b>Turno atual:</b> Pretas | <b>Jogada:</b> 1
 </p>
 <!-- END CHESS BOARD -->
 
@@ -82,7 +82,7 @@ Confira o arquivo [chess.pgn](./chess.pgn) para ver todas as jogadas!
 </details>
 
 <p align="center">
-  <sub>Última atualização: Aguardando primeira jogada</sub>
+  <sub>Última atualização: 2025-12-24 13:40:02 UTC
 </p>
 
 ---
