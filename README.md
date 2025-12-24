@@ -5,7 +5,7 @@
   Aqui é onde eu quebro coisas, conserto coisas e às vezes crio algo legal.
 </p>
 
-<!-- ---
+---
 
 ### 🛠 Tech stack (um pouco do que eu uso)
 
@@ -40,9 +40,13 @@
 </p>
 
 <!-- BEGIN CHESS BOARD -->
-| ![Tabuleiro de Xadrez](https://raw.githubusercontent.com/EdderGaddini/EdderGaddini/main/chess_board.svg) |
-| :-: |
-| **Turno atual:** Brancas | **Jogada:** 1 |
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EdderGaddini/EdderGaddini/main/chess_board.svg" width="600" alt="Tabuleiro de Xadrez">
+</p>
+
+<p align="center">
+  <b>Turno atual:</b> Brancas | <b>Jogada:</b> 1
+</p>
 <!-- END CHESS BOARD -->
 
 #### 🎯 Jogadas sugeridas (clique para jogar):
