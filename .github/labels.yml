@@ -1,0 +1,15 @@
+- name: "chess-move"
+  color: "0E8A16"
+  description: "Jogada de xadrez proposta"
+
+- name: "awaiting-approval"
+  color: "FBCA04"
+  description: "Aguardando aprovação do mantenedor"
+
+- name: "approved"
+  color: "0075CA"
+  description: "Jogada aprovada para execução"
+
+- name: "invalid-move"
+  color: "D93F0B"
+  description: "Jogada inválida"

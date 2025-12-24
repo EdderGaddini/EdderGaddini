@@ -1,0 +1,35 @@
+name: ♟️ Propor Jogada de Xadrez
+description: Sugira uma jogada para o jogo comunitário de xadrez!
+title: "chess|"
+labels: ["chess-move"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🎯 Propor uma jogada de xadrez
+        
+        Complete o título acima com sua jogada no formato UCI.
+        
+        **Exemplos:**
+        - `chess|e2e4` (peão do rei para e4)
+        - `chess|g1f3` (cavalo para f3)
+        - `chess|e7e5` (peão das pretas para e5)
+        
+  - type: textarea
+    id: move-explanation
+    attributes:
+      label: Por que essa jogada?
+      description: Opcional - Explique sua estratégia ou raciocínio
+      placeholder: Esta jogada controla o centro e desenvolve meu cavalo...
+    validations:
+      required: false
+  
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmação
+      options:
+        - label: Li as [instruções do jogo](../blob/main/CHESS_INSTRUCTIONS.md)
+          required: true
+        - label: Verifiquei que é o turno correto (brancas ou pretas)
+          required: true

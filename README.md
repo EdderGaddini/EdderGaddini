@@ -34,6 +34,56 @@
 
 ---
 
+### ♟️ Vamos jogar xadrez!
+
+<p align="center">
+  <b>É a sua vez! Clique em uma jogada abaixo para jogar:</b>
+</p>
+
+<!-- BEGIN CHESS BOARD -->
+| ![Tabuleiro de Xadrez](https://raw.githubusercontent.com/EdderGaddini/EdderGaddini/main/chess_board.svg) |
+| :-: |
+| **Turno atual:** Brancas | **Jogada:** 1 |
+<!-- END CHESS BOARD -->
+
+#### 🎯 Jogadas sugeridas (clique para jogar):
+
+| Brancas ⚪ | Pretas ⚫ |
+|:---:|:---:|
+| [♟️ e2-e4](../../issues/new?title=chess%7Ce2e4&body=Apenas%20envie%20esta%20issue%20para%20fazer%20sua%20jogada!) | [♟️ e7-e5](../../issues/new?title=chess%7Ce7e5&body=Apenas%20envie%20esta%20issue%20para%20fazer%20sua%20jogada!) |
+| [♞ g1-f3](../../issues/new?title=chess%7Cg1f3&body=Apenas%20envie%20esta%20issue%20para%20fazer%20sua%20jogada!) | [♞ b8-c6](../../issues/new?title=chess%7Cb8c6&body=Apenas%20envie%20esta%20issue%20para%20fazer%20sua%20jogada!) |
+| [♟️ d2-d4](../../issues/new?title=chess%7Cd2d4&body=Apenas%20envie%20esta%20issue%20para%20fazer%20sua%20jogada!) | [♟️ d7-d5](../../issues/new?title=chess%7Cd7d5&body=Apenas%20envie%20esta%20issue%20para%20fazer%20sua%20jogada!) |
+
+<details>
+<summary>📋 Como jogar?</summary>
+
+### Opção 1: Clique nos links acima
+Clique em qualquer jogada sugerida acima - uma Issue será criada automaticamente!
+
+### Opção 2: Crie uma Issue customizada
+1. Vá em [Issues](../../issues)
+2. Crie uma nova Issue
+3. Título: `chess|[sua jogada]` (ex: `chess|e2e4`)
+4. Envie a Issue
+5. Aguarde a aprovação e o tabuleiro será atualizado!
+
+### 📖 Formato das jogadas
+- Use notação UCI: `[origem][destino]`
+- Exemplos: `e2e4`, `g1f3`, `e7e5`, `b8c6`
+- Roque: `e1g1` (pequeno), `e1c1` (grande)
+- Promoção: `e7e8q` (promove a dama)
+
+### 📜 Ver histórico de jogadas
+Confira o arquivo [chess.pgn](./chess.pgn) para ver todas as jogadas!
+
+</details>
+
+<p align="center">
+  <sub>Última atualização: Aguardando primeira jogada</sub>
+</p>
+
+---
+
 ### 🐍 Snake (contribuições)
 
 <p align="center">
