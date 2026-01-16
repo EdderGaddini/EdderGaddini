@@ -1,103 +1,120 @@
-<h1 align="center">👋 Hello there!</h1>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Edder%20Gaddini&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32" />
+</div>
 
-<p align="center">
-  Bem-vindo ao meu cantinho no GitHub 👨‍💻<br/>
-  Aqui é onde eu quebro coisas, conserto coisas e às vezes crio algo legal.
-</p>
+<div align="center">
+  
+### 👋 Olá! Sou Edder Gaddini
+**Full Stack Developer | Tech Enthusiast | Problem Solver**
 
----
+Bem-vindo ao meu cantinho no GitHub 👨‍💻  
+Aqui é onde eu quebro coisas, conserto coisas e às vezes crio algo legal.
 
-<!-- ### 🛠 Tech stack (um pouco do que eu uso)
-
-<p align="center">
-  Linguagens / Runtime
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-</p>
-
-<p align="center">
-  Web / Front
-  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-</p> -->
-
-<!-- <p align="center">
-  <!-- Cloud / DevOps -->
-  <!-- <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-</p> -->
-
-
-### ♟️ Vamos jogar xadrez!
-
-<p align="center">
-  <b>É a sua vez! Clique em uma jogada abaixo para jogar:</b>
-</p>
-
-<!-- BEGIN CHESS BOARD -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/EdderGaddini/EdderGaddini/main/chess_board.svg" width="600" alt="Tabuleiro de Xadrez">
-</p>
-
-<p align="center">
-  <b>Turno atual:</b> Pretas | <b>Jogada:</b> 1
-</p>
-<!-- END CHESS BOARD -->
-
-#### 🎯 Jogadas sugeridas (clique para jogar):
-
-| Brancas ⚪ | Pretas ⚫ |
-|:---:|:---:|
-| [♟️ e2-e4](../../issues/new?title=chess%7Ce2e4&body=Apenas%20envie%20esta%20issue%20para%20fazer%20sua%20jogada!) | [♟️ e7-e5](../../issues/new?title=chess%7Ce7e5&body=Apenas%20envie%20esta%20issue%20para%20fazer%20sua%20jogada!) |
-| [♞ g1-f3](../../issues/new?title=chess%7Cg1f3&body=Apenas%20envie%20esta%20issue%20para%20fazer%20sua%20jogada!) | [♞ b8-c6](../../issues/new?title=chess%7Cb8c6&body=Apenas%20envie%20esta%20issue%20para%20fazer%20sua%20jogada!) |
-| [♟️ d2-d4](../../issues/new?title=chess%7Cd2d4&body=Apenas%20envie%20esta%20issue%20para%20fazer%20sua%20jogada!) | [♟️ d7-d5](../../issues/new?title=chess%7Cd7d5&body=Apenas%20envie%20esta%20issue%20para%20fazer%20sua%20jogada!) |
-
-<details>
-<summary>📋 Como jogar?</summary>
-
-### Opção 1: Clique nos links acima
-Clique em qualquer jogada sugerida acima - uma Issue será criada automaticamente!
-
-### Opção 2: Crie uma Issue customizada
-1. Vá em [Issues](../../issues)
-2. Crie uma nova Issue
-3. Título: `chess|[sua jogada]` (ex: `chess|e2e4`)
-4. Envie a Issue
-5. Aguarde a aprovação e o tabuleiro será atualizado!
-
-### 📖 Formato das jogadas
-- Use notação UCI: `[origem][destino]`
-- Exemplos: `e2e4`, `g1f3`, `e7e5`, `b8c6`
-- Roque: `e1g1` (pequeno), `e1c1` (grande)
-- Promoção: `e7e8q` (promove a dama)
-
-### 📜 Ver histórico de jogadas
-Confira o arquivo [chess.pgn](./chess.pgn) para ver todas as jogadas!
-
-</details>
-
-<p align="center">
-  <sub>Última atualização: 2025-12-24 13:40:02 UTC
-</p>
+</div>
 
 ---
 
-### 🐍 Snake (contribuições)
+<div align="center">
 
-<p align="center">
-  <img 
-    src="https://github.com/EdderGaddini/EdderGaddini/blob/output/github-contribution-grid-snake.svg"
-    alt="Snake animation"
-  />
-</p>
+## 🏆 GitHub Tier Ranking
+
+![Tier](https://img.shields.io/badge/Tier-B-FF0000?style=for-the-badge&logo=github&logoColor=white)
+![Commits](https://img.shields.io/badge/Commits-61-blue?style=for-the-badge&logo=git)
+![Streak](https://img.shields.io/badge/Streak-Loading...-orange?style=for-the-badge&logo=github)
+
+</div>
+
+<!-- TIER_STATS_START -->
+<div align="center">
+
+### 📊 Stats do Ano
+
+| Métrica | Valor |
+|---------|-------|
+| 📝 Total de Commits | 61 |
+| ⭐ Stars Recebidas | 0 |
+| 📦 Repositórios Públicos | 13 |
+| 👥 Seguidores | 0 |
+
+### 🎖️ Sistema de Tiers
+
+```
+🔥 S+  → Elite      (2500+ commits/ano)
+⭐ S   → Master     (1000+ commits/ano)
+💎 A+  → Diamond    (500+ commits/ano)
+💎 A   → Platinum   (250+ commits/ano)
+🥇 B+  → Gold       (100+ commits/ano)
+🥈 B   → Silver     (50+ commits/ano)
+🥉 C+  → Bronze     (25+ commits/ano)
+🌱 C   → Iniciante  (0+ commits/ano)
+```
+
+**Tier Atual:** 🥈 B (Silver)
+
+</div>
+<!-- TIER_STATS_END -->
+│   └── animations.css  # Animações customizadas
+├── js/
+│   ├── main.js         # Lógica principal
+│   ├── projects.js     # Dados dos projetos
+│   └── animations.js   # Controle de animações
+├── assets/
+│   ├── images/         # Imagens do site
+│   ├── icons/          # Ícones customizados
+│   └── documents/      # CV em PDF
+└── projects/
+    └── projects-data.json  # Dados dos projetos (opcional)
+```
+
+## ��� Como usar
+
+1. Clone o repositório
+2. Abra `index.html` no navegador
+3. Ou hospede no GitHub Pages:
+   - Vá em Settings > Pages
+   - Source: `main` branch
+   - Folder: `/ (root)`
+   - Save
+
+## ��� Personalização
+
+### Adicionar Projetos
+
+Edite o arquivo `js/projects.js`:
+
+```javascript
+const projects = [
+    {
+        title: "Seu Projeto",
+        description: "Descrição curta",
+        image: "https://via.placeholder.com/600x400",
+        tags: ["Flutter", "Firebase"],
+        github: "https://github.com/seu-usuario/projeto",
+        demo: "https://seu-app.com"
+    }
+];
+```
+
+### Cores
+
+Edite as variáveis CSS em `css/style.css`:
+
+```css
+:root {
+    --primary-color: #3b82f6;
+    --secondary-color: #1e40af;
+    /* ... */
+}
+```
+
+## ��� Preview
+
+Visite: [https://eddergaddini.github.io](https://eddergaddini.github.io)
+
+## ��� Licença
+
+MIT License - sinta-se livre para usar este template!
 
 ---
 
-<p align="center">
-  `git commit -m "feat: quebrar menos coisas e criar mais coisas legais"` 🚀
-</p>
+Desenvolvido com ��� por Edder Gaddini
