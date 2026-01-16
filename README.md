@@ -19,7 +19,7 @@ Aqui é onde eu quebro coisas, conserto coisas e às vezes crio algo legal.
 ## 🏆 GitHub Tier Ranking
 
 ![Tier](https://img.shields.io/badge/Tier-B-FF0000?style=for-the-badge&logo=github&logoColor=white)
-![Commits](https://img.shields.io/badge/Commits-61-blue?style=for-the-badge&logo=git)
+![Commits](https://img.shields.io/badge/Commits-62-blue?style=for-the-badge&logo=git)
 ![Streak](https://img.shields.io/badge/Streak-Loading...-orange?style=for-the-badge&logo=github)
 
 </div>
@@ -31,7 +31,7 @@ Aqui é onde eu quebro coisas, conserto coisas e às vezes crio algo legal.
 
 | Métrica | Valor |
 |---------|-------|
-| 📝 Total de Commits | 61 |
+| 📝 Total de Commits | 62 |
 | ⭐ Stars Recebidas | 0 |
 | 📦 Repositórios Públicos | 13 |
 | 👥 Seguidores | 0 |
