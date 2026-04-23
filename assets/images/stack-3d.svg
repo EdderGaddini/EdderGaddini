@@ -1,0 +1,94 @@
+<svg width="1400" height="760" viewBox="0 0 1400 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Edder Gaddini stack architecture</title>
+  <desc id="desc">A premium isometric technology landscape with mobile, backend, cloud, and delivery layers.</desc>
+  <defs>
+    <linearGradient id="bg" x1="120" y1="50" x2="1220" y2="690" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="0.55" stop-color="#0B1120"/>
+      <stop offset="1" stop-color="#052E2B"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(700 250) rotate(90) scale(220 420)">
+      <stop stop-color="#14B8A6" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#14B8A6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#132033"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1E293B"/>
+      <stop offset="1" stop-color="#334155"/>
+    </linearGradient>
+    <linearGradient id="mobileTop" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="backendTop" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+    <linearGradient id="cloudTop" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#4ADE80"/>
+      <stop offset="1" stop-color="#15803D"/>
+    </linearGradient>
+    <linearGradient id="deliveryTop" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#6D28D9"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1400" height="760" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#020617" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect x="24" y="24" width="1352" height="712" rx="40" fill="url(#bg)"/>
+  <rect x="24" y="24" width="1352" height="712" rx="40" stroke="#0F766E" stroke-opacity="0.25"/>
+  <ellipse cx="700" cy="585" rx="440" ry="78" fill="#020617" opacity="0.5"/>
+  <ellipse cx="700" cy="250" rx="430" ry="220" fill="url(#glowA)"/>
+
+  <g opacity="0.17">
+    <path d="M240 520L700 340L1160 520" stroke="#94A3B8" stroke-width="2"/>
+    <path d="M300 548L700 390L1100 548" stroke="#94A3B8" stroke-width="1.5"/>
+    <path d="M360 576L700 442L1040 576" stroke="#94A3B8" stroke-width="1.2"/>
+    <path d="M460 438L460 592" stroke="#64748B" stroke-width="1.2"/>
+    <path d="M700 342L700 612" stroke="#64748B" stroke-width="1.2"/>
+    <path d="M940 438L940 592" stroke="#64748B" stroke-width="1.2"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <polygon points="700,170 1030,300 700,430 370,300" fill="url(#surface)" stroke="url(#edge)" stroke-width="2"/>
+    <polygon points="370,300 700,430 700,540 370,410" fill="#0B1220"/>
+    <polygon points="700,430 1030,300 1030,410 700,540" fill="#111827"/>
+
+    <polygon points="700,135 875,205 700,275 525,205" fill="url(#mobileTop)"/>
+    <polygon points="525,205 700,275 700,340 525,270" fill="#153B80"/>
+    <polygon points="700,275 875,205 875,270 700,340" fill="#1D4ED8"/>
+    <text x="700" y="215" text-anchor="middle" fill="#F8FAFC" font-size="30" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Mobile Platform</text>
+    <text x="700" y="248" text-anchor="middle" fill="#DBEAFE" font-size="19" font-family="Segoe UI, Arial, sans-serif">Flutter | Dart | Kotlin | Swift</text>
+
+    <polygon points="965,255 1140,325 965,395 790,325" fill="url(#backendTop)"/>
+    <polygon points="790,325 965,395 965,460 790,390" fill="#115E59"/>
+    <polygon points="965,395 1140,325 1140,390 965,460" fill="#0F766E"/>
+    <text x="965" y="335" text-anchor="middle" fill="#ECFEFF" font-size="30" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Backend</text>
+    <text x="965" y="368" text-anchor="middle" fill="#CCFBF1" font-size="19" font-family="Segoe UI, Arial, sans-serif">Java | Spring Boot | Node.js</text>
+
+    <polygon points="435,255 610,325 435,395 260,325" fill="url(#cloudTop)"/>
+    <polygon points="260,325 435,395 435,460 260,390" fill="#166534"/>
+    <polygon points="435,395 610,325 610,390 435,460" fill="#15803D"/>
+    <text x="435" y="335" text-anchor="middle" fill="#F0FDF4" font-size="30" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Cloud</text>
+    <text x="435" y="368" text-anchor="middle" fill="#DCFCE7" font-size="19" font-family="Segoe UI, Arial, sans-serif">Firebase | AWS | GCP</text>
+
+    <polygon points="700,365 875,435 700,505 525,435" fill="url(#deliveryTop)"/>
+    <polygon points="525,435 700,505 700,570 525,500" fill="#4C1D95"/>
+    <polygon points="700,505 875,435 875,500 700,570" fill="#5B21B6"/>
+    <text x="700" y="445" text-anchor="middle" fill="#FAF5FF" font-size="30" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Delivery</text>
+    <text x="700" y="478" text-anchor="middle" fill="#E9D5FF" font-size="19" font-family="Segoe UI, Arial, sans-serif">Git | GitHub Actions | CI/CD | Docker</text>
+  </g>
+
+  <g opacity="0.95">
+    <circle cx="130" cy="110" r="7" fill="#22C55E"/>
+    <circle cx="158" cy="110" r="7" fill="#14B8A6"/>
+    <circle cx="186" cy="110" r="7" fill="#38BDF8"/>
+    <text x="122" y="598" fill="#E2E8F0" font-size="36" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Stack Architecture</text>
+    <text x="122" y="636" fill="#94A3B8" font-size="21" font-family="Segoe UI, Arial, sans-serif">A layered engineering view across mobile, backend, cloud, and delivery systems.</text>
+  </g>
+</svg>
