@@ -1,103 +1,106 @@
-<h1 align="center">👋 Hello there!</h1>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:020617,35:0f172a,70:0f766e,100:22c55e&text=Edder%20Gaddini&fontColor=ffffff&fontSize=48&fontAlignY=38&desc=Senior%20Software%20Engineer%20%7C%20Flutter%20%7C%20Mobile%20Architecture%20%7C%20Full-Stack%20Delivery&descAlignY=60&animation=fadeIn" alt="Header" />
+</div>
 
-<p align="center">
-  Bem-vindo ao meu cantinho no GitHub 👨‍💻<br/>
-  Aqui é onde eu quebro coisas, conserto coisas e às vezes crio algo legal.
-</p>
+<div align="center">
 
----
+### Senior Software Engineer — Mobile (Flutter) • Backend (APIs) • Product Delivery
 
-<!-- ### 🛠 Tech stack (um pouco do que eu uso)
+I build production-grade mobile apps and the backend systems behind them, with an emphasis on clean architecture, performance, and maintainable delivery.
 
-<p align="center">
-  Linguagens / Runtime
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-</p>
+[![Profile Views](https://komarev.com/ghpvc/?username=EdderGaddini&style=for-the-badge&color=0f766e)](https://github.com/EdderGaddini)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Edder%20Gaddini-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/eddergaddini)
+[![Email](https://img.shields.io/badge/Email-egaddini.dev%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:egaddini.dev@gmail.com)
 
-<p align="center">
-  Web / Front
-  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-</p> -->
-
-<!-- <p align="center">
-  <!-- Cloud / DevOps -->
-  <!-- <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-</p> -->
-
-
-### ♟️ Vamos jogar xadrez!
-
-<p align="center">
-  <b>É a sua vez! Clique em uma jogada abaixo para jogar:</b>
-</p>
-
-<!-- BEGIN CHESS BOARD -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/EdderGaddini/EdderGaddini/main/chess_board.svg" width="600" alt="Tabuleiro de Xadrez">
-</p>
-
-<p align="center">
-  <b>Turno atual:</b> Brancas | <b>Jogada:</b> 1
-</p>
-<!-- END CHESS BOARD -->
-
-#### 🎯 Jogadas sugeridas (clique para jogar):
-
-| Brancas ⚪ | Pretas ⚫ |
-|:---:|:---:|
-| [♟️ e2-e4](../../issues/new?title=chess%7Ce2e4&body=Apenas%20envie%20esta%20issue%20para%20fazer%20sua%20jogada!) | [♟️ e7-e5](../../issues/new?title=chess%7Ce7e5&body=Apenas%20envie%20esta%20issue%20para%20fazer%20sua%20jogada!) |
-| [♞ g1-f3](../../issues/new?title=chess%7Cg1f3&body=Apenas%20envie%20esta%20issue%20para%20fazer%20sua%20jogada!) | [♞ b8-c6](../../issues/new?title=chess%7Cb8c6&body=Apenas%20envie%20esta%20issue%20para%20fazer%20sua%20jogada!) |
-| [♟️ d2-d4](../../issues/new?title=chess%7Cd2d4&body=Apenas%20envie%20esta%20issue%20para%20fazer%20sua%20jogada!) | [♟️ d7-d5](../../issues/new?title=chess%7Cd7d5&body=Apenas%20envie%20esta%20issue%20para%20fazer%20sua%20jogada!) |
-
-<details>
-<summary>📋 Como jogar?</summary>
-
-### Opção 1: Clique nos links acima
-Clique em qualquer jogada sugerida acima - uma Issue será criada automaticamente!
-
-### Opção 2: Crie uma Issue customizada
-1. Vá em [Issues](../../issues)
-2. Crie uma nova Issue
-3. Título: `chess|[sua jogada]` (ex: `chess|e2e4`)
-4. Envie a Issue
-5. Aguarde a aprovação e o tabuleiro será atualizado!
-
-### 📖 Formato das jogadas
-- Use notação UCI: `[origem][destino]`
-- Exemplos: `e2e4`, `g1f3`, `e7e5`, `b8c6`
-- Roque: `e1g1` (pequeno), `e1c1` (grande)
-- Promoção: `e7e8q` (promove a dama)
-
-### 📜 Ver histórico de jogadas
-Confira o arquivo [chess.pgn](./chess.pgn) para ver todas as jogadas!
-
-</details>
-
-<p align="center">
-  <sub>Última atualização: Aguardando primeira jogada</sub>
-</p>
+</div>
 
 ---
 
-### 🐍 Snake (contribuições)
+## About
 
-<p align="center">
-  <img 
-    src="https://github.com/EdderGaddini/EdderGaddini/blob/output/github-contribution-grid-snake.svg"
-    alt="Snake animation"
-  />
-</p>
+- **Primary strengths:** Flutter/Dart, mobile architecture, UI systems, performance
+- **Also experienced with:** Java + Spring Boot, Firebase, Node.js, TypeScript/JavaScript, CI/CD, cloud integrations
+- **How I work:** pragmatic, testable code; clear ownership; reliable delivery; measurable product impact
+
+> If you're hiring or collaborating: I’m open to mobile-led roles (Flutter) with backend/API ownership when it drives product outcomes.
 
 ---
 
-<p align="center">
-  `git commit -m "feat: quebrar menos coisas e criar mais coisas legais"` 🚀
-</p>
+## What I’m focused on now
+
+```text
+Mobile foundations  -> scalable Flutter modules, design systems, performance tuning
+Backend delivery    -> APIs, Spring Boot/Firebase services, integrations
+Engineering quality -> CI/CD, maintainability, iteration speed, observability
+Product value       -> building features users notice (polish, reliability, UX)
+```
+
+---
+
+## Tech Stack
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=flutter,dart,kotlin,swift,java,spring,nodejs,js,ts,firebase,aws,gcp,git,github,docker&perline=5" alt="Tech stack icons" />
+</div>
+
+---
+
+## Engineering themes
+
+<table>
+  <tr>
+    <td valign="top">
+      <strong>Mobile</strong><br/>
+      Flutter, Dart, modular architecture, performance profiling, maintainable UI systems
+    </td>
+    <td valign="top">
+      <strong>Backend</strong><br/>
+      Java, Spring Boot, Node.js, REST/GraphQL patterns, service design & integrations
+    </td>
+    <td valign="top">
+      <strong>Cloud & Delivery</strong><br/>
+      Firebase, AWS/GCP, CI/CD pipelines, automation, release quality
+    </td>
+  </tr>
+</table>
+
+---
+
+## Selected work
+
+- **[EdderGaddini.github.io](https://github.com/EdderGaddini/EdderGaddini.github.io)** — portfolio site and presentation experiments
+- **[bikers-pathway](https://github.com/EdderGaddini/bikers-pathway)** — route + product-oriented exploration
+- **[bikers-wayfinder](https://github.com/EdderGaddini/bikers-wayfinder)** — navigation-focused work in active iteration
+
+---
+
+## 3D Stack Architecture
+
+<div align="center">
+  <img src="./assets/images/stack-3d.svg" alt="3D technology stack illustration" width="900" />
+</div>
+
+---
+
+## GitHub snapshot
+
+<div align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=EdderGaddini&show_icons=true&hide_border=true&bg_color=00000000&title_color=14b8a6&icon_color=22c55e&text_color=cbd5e1&rank_icon=github" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EdderGaddini&layout=compact&hide_border=true&bg_color=00000000&title_color=14b8a6&text_color=cbd5e1" alt="Top languages" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=EdderGaddini&hide_border=true&background=FFFFFF00&ring=14B8A6&fire=22C55E&currStreakLabel=14B8A6&sideNums=CBD5E1&currStreakNum=FFFFFF&sideLabels=94A3B8&dates=94A3B8" alt="GitHub streak" />
+</div>
+
+---
+
+## Contribution activity
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/EdderGaddini/EdderGaddini/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation" />
+</div>
+
+<div align="center">
+  <sub>Open to building mobile products, platform improvements, and full-stack features with clear product impact.</sub>
+</div>
