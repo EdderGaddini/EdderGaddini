@@ -4,7 +4,9 @@
 
 <div align="center">
 
-### Designing clean mobile systems, reliable backends, and product-focused user experiences
+### Senior Software Engineer — Mobile (Flutter) • Backend (APIs) • Product Delivery
+
+I build production-grade mobile apps and the backend systems behind them, with an emphasis on clean architecture, performance, and maintainable delivery.
 
 [![Profile Views](https://komarev.com/ghpvc/?username=EdderGaddini&style=for-the-badge&color=0f766e)](https://github.com/EdderGaddini)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Edder%20Gaddini-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/eddergaddini)
@@ -12,38 +14,65 @@
 
 </div>
 
-<p align="center">
-  I build production software with strong architecture, practical delivery, and attention to the user experience from mobile app to backend integration.
-</p>
+---
 
-## Profile
+## About
+
+- **Primary strengths:** Flutter/Dart, mobile architecture, UI systems, performance
+- **Also experienced with:** Java + Spring Boot, Firebase, Node.js, TypeScript/JavaScript, CI/CD, cloud integrations
+- **How I work:** pragmatic, testable code; clear ownership; reliable delivery; measurable product impact
+
+> If you're hiring or collaborating: I’m open to mobile-led roles (Flutter) with backend/API ownership when it drives product outcomes.
+
+---
+
+## What I’m focused on now
+
+```text
+Mobile foundations  -> scalable Flutter modules, design systems, performance tuning
+Backend delivery    -> APIs, Spring Boot/Firebase services, integrations
+Engineering quality -> CI/CD, maintainability, iteration speed, observability
+Product value       -> building features users notice (polish, reliability, UX)
+```
+
+---
+
+## Tech Stack
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=flutter,dart,kotlin,swift,java,spring,nodejs,js,ts,firebase,aws,gcp,git,github,docker&perline=5" alt="Tech stack icons" />
+</div>
+
+---
+
+## Engineering themes
 
 <table>
   <tr>
-    <td width="52%" valign="top">
-
-### What I Bring
-
-- 6+ years building software for real users
-- Strongest in Flutter, Dart, mobile architecture, and product delivery
-- Comfortable across Java, Spring Boot, Firebase, JavaScript, cloud services, and CI/CD
-- Prefer clean architecture, clear ownership, and maintainable systems over noisy complexity
-
+    <td valign="top">
+      <strong>Mobile</strong><br/>
+      Flutter, Dart, modular architecture, performance profiling, maintainable UI systems
     </td>
-    <td width="48%" valign="top">
-
-### Current Focus
-
-```text
-Mobile platforms   -> scalable Flutter foundations
-Backend systems    -> APIs, Firebase, Spring Boot
-Delivery quality   -> CI/CD, maintainability, iteration speed
-User value         -> features that feel polished in production
-```
-
+    <td valign="top">
+      <strong>Backend</strong><br/>
+      Java, Spring Boot, Node.js, REST/GraphQL patterns, service design & integrations
+    </td>
+    <td valign="top">
+      <strong>Cloud & Delivery</strong><br/>
+      Firebase, AWS/GCP, CI/CD pipelines, automation, release quality
     </td>
   </tr>
 </table>
+
+---
+
+## Selected work
+
+- **[EdderGaddini.github.io](https://github.com/EdderGaddini/EdderGaddini.github.io)** — portfolio site and presentation experiments
+- **[bikers-pathway](https://github.com/EdderGaddini/bikers-pathway)** — route + product-oriented exploration
+- **[bikers-wayfinder](https://github.com/EdderGaddini/bikers-wayfinder)** — navigation-focused work in active iteration
+
+---
 
 ## 3D Stack Architecture
 
@@ -51,36 +80,9 @@ User value         -> features that feel polished in production
   <img src="./assets/images/stack-3d.svg" alt="3D technology stack illustration" width="900" />
 </div>
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,kotlin,swift,java,spring,nodejs,js,ts,firebase,aws,gcp,git,github,docker&perline=5" alt="Tech stack icons" />
-</div>
+---
 
-## Engineering Themes
-
-<table>
-  <tr>
-    <td valign="top">
-      <strong>Mobile</strong><br/>
-      Flutter, Dart, app architecture, performance, maintainable UI systems
-    </td>
-    <td valign="top">
-      <strong>Backend</strong><br/>
-      Java, Spring Boot, Node.js, integrations, service design
-    </td>
-    <td valign="top">
-      <strong>Cloud</strong><br/>
-      Firebase, AWS, GCP, deployment flow, automation
-    </td>
-  </tr>
-</table>
-
-## Selected Repositories
-
-- [EdderGaddini.github.io](https://github.com/EdderGaddini/EdderGaddini.github.io) - portfolio site and presentation experiments
-- [bikers-pathway](https://github.com/EdderGaddini/bikers-pathway) - route and product-oriented exploration
-- [bikers-wayfinder](https://github.com/EdderGaddini/bikers-wayfinder) - navigation-focused work in active iteration
-
-## GitHub Snapshot
+## GitHub snapshot
 
 <div align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=EdderGaddini&show_icons=true&hide_border=true&bg_color=00000000&title_color=14b8a6&icon_color=22c55e&text_color=cbd5e1&rank_icon=github" alt="GitHub stats" />
@@ -91,26 +93,9 @@ User value         -> features that feel polished in production
   <img src="https://streak-stats.demolab.com?user=EdderGaddini&hide_border=true&background=FFFFFF00&ring=14B8A6&fire=22C55E&currStreakLabel=14B8A6&sideNums=CBD5E1&currStreakNum=FFFFFF&sideLabels=94A3B8&dates=94A3B8" alt="GitHub streak" />
 </div>
 
-## GitHub Tier Ranking
+---
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Tier-C%2B-FF0000?style=for-the-badge&logo=github&logoColor=white" alt="Tier badge" />
-  <img src="https://img.shields.io/badge/Commits-44-blue?style=for-the-badge&logo=git" alt="Commits badge" />
-  <img src="https://img.shields.io/badge/Streak-Loading...-orange?style=for-the-badge&logo=github" alt="Streak badge" />
-</div>
-
-<div align="center">
-
-| Metric | Value |
-|--------|-------|
-| Total Commits | 44 |
-| Stars Received | 0 |
-| Public Repositories | 13 |
-| Followers | 0 |
-
-</div>
-
-## Contribution Activity
+## Contribution activity
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/EdderGaddini/EdderGaddini/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation" />
